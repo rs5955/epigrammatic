@@ -1,0 +1,23 @@
+<div id='content'>
+	<div class='defaultBody'>
+		<div class="post">
+			<h3 class="postHead">{{post.header}}</h3><br>
+			<div id="postBody">{{post.body}}</div><br>
+			by {{post.user}}
+			on {{post.createdAt}}<br>   
+		</div>
+		
+		<form action='.' method='POST' id='commentForm'>
+			<h2>Comments</h2>
+			Comment:<br> <textarea id='blogcomment' name='comm' required></textarea><p></p>
+			User:<br><input type='text' name='user'><br><br>
+			<p></p><input type='submit' value='Comment'>
+		</form>
+		{{#each comments as |c|}}
+		<div class='feedbackPost'>
+			{{c.comment}}<br>
+			- {{c.user}}
+		</div>
+		{{/each}}
+	</div>
+</div>

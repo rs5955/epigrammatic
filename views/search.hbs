@@ -1,0 +1,19 @@
+<div id='content'>
+	<div class='defaultBody'>
+		<form action='/search' method='GET'>
+			Header/User Search
+			<br><br>
+			<input type='text' name='q'><br><br>
+			<input type='submit' value='Filter'>
+		</form>
+		
+		{{#each posts as |p|}}
+			<div class="post">
+				<h3 class="postHead"><a href="">{{p.header}}</a></h3><br>
+				<div id="postBody">{{p.body}}</div><br>
+				by {{p.user}}
+				on {{p.createdAt}}<br>   
+			</div>
+		{{/each}}
+	</div>
+</div>

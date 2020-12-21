@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Epigrammatic</title>
+<link rel="stylesheet" href="/css/base.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link rel="icon" href="data:," />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="epig">Epigrammatic</h1>
+            <div id="log">
+				{{#if user}}
+				<a href="/logout">Logout</a>
+				{{else}}
+                <a href="/login">Sign In</a> |
+                <a href="/register">Sign Up</a>
+				{{/if}}
+            </div>
+            <div id="sessInfo">
+				{{#if user}}
+				<i>Logged in as</i> <b>{{user.username}}</b>
+				{{else}}
+				not logged in
+				{{/if}}
+            </div>
+            <nav>
+                <a href="/home">Home</a>
+				<a href="/search">Search</a>
+                <a href="/about">About</a>
+                <a href="/contact-us">Contact Us</a>
+            </nav>
+        </header>
+            {{{ body }}}
+    </div>
+</body>
+</html>

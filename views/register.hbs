@@ -1,0 +1,33 @@
+<div id='error'>
+	{{#if message}}
+		{{message}}
+	{{/if}}
+</div>
+<div id='loginForm'>
+<h1>Register</h1>
+
+<form action="/register" method="POST">
+    <div>
+        <input type="text" id="user" name="username" placeholder='username*' required>
+    </div>
+    <div>
+        <input type="password" id="password" name="password" placeholder="password*" required>
+    </div>
+    <div>
+        <input type="text" id="first" name="first" placeholder='first name'>
+    </div>
+    <div>
+        <input type="text" id="last" name="last" placeholder="last name">
+    </div>
+
+    <div>
+        <input type="text" id="epithet" name="epithet" placeholder="epithet">
+    </div>
+    <div>
+        <textarea id="about" name="about" placeholder='short desc'></textarea>
+    </div>
+    <button type="submit">Register</button>
+</form>
+
+<a href="/login">login</a>
+</div>

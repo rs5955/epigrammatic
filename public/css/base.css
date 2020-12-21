@@ -1,0 +1,241 @@
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+body {
+/*	font-family: sans-serif;*/
+    background-color: lightsteelblue;
+/*    border: 2px solid black;*/
+    height: 1000px;
+}
+.container{
+    position: relative;
+/*    border: 2px solid black;*/
+/*    margin-top: 0px;*/
+}
+header{
+    border-top: 1px dotted black;
+    position: relative;
+	background-color: skyblue;
+	padding-bottom: 20px;
+}
+
+header a{
+	text-decoration: none;
+/*	background-color: antiquewhite;*/
+	margin: 5px;
+}
+#epig{
+	font-family: verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+/*    border: 2px solid green;*/
+}
+#log{
+/*    border: 2px solid blue;*/
+    position: absolute;
+    top: 20px;
+    right: 2%;
+    font-size: 20px;
+}
+/**/
+nav{
+/*    border: 2px solid purple;*/
+/*    position: absolute;*/
+    bottom: 0px;
+/*    width: 100%;*/
+    margin: auto;
+    text-align: center;
+}
+header nav a{
+/*    border: 2px solid orange;*/
+    padding: 20px;
+    font-size: 30px;
+}
+#sessInfo{
+/*    border: 3px solid blue;*/
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+/*----layout----*/
+#content{
+/*    border: 2px solid gray;*/
+/*    width: 80%;*/
+/*    margin: auto;*/
+}
+.post{
+    border: 2px solid black;
+    padding: 30px;
+    margin: 20px;
+	background-color: lightgoldenrodyellow;
+}
+#main{
+/*    border-left: 3px solid black;*/
+/*    border-right: 3px dashed black;*/
+    width: 60%;
+    display: inline-block;
+/*    margin: auto;*/
+    margin-left: 200px;
+/*    position:relative;*/
+}
+aside{
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+}
+h2{
+    text-align: center;
+}
+input[type=submit],button{
+	cursor: pointer;
+}
+form{
+    padding: 20px;
+}
+/*form for home page*/
+#main > form{
+	width: 50%;
+} 
+#main input[type=text]{
+    border: 1px solid black;
+    width: 50%;
+    height: 30px;
+    margin: 20px;
+    font-size: 20px;
+}
+#main input[type=submit]{
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: papayawhip;
+    
+}
+#main textarea{
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+}
+textarea{
+	resize: none; /*disable draggable*/
+}
+/*default page body*/
+.defaultBody{
+	background-color:lightblue;
+	width: 70%;
+	margin: auto;
+	padding: 30px;
+}
+
+/*about*/
+#aboutDiv{
+	border: 5px solid black;
+	background-color: floralwhite;
+	padding: 50px;
+	margin: 50px;
+}
+#aboutDiv p{
+	font-size: 16px;
+}
+
+/*feedback*/
+#feedbackForm{
+	width: 50%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.feedbackPost{
+	background-color: floralwhite;
+	border: 2px solid black;
+    padding: 20px;
+/*    margin: 20px;*/
+	width: 50%;
+	margin: auto;
+	margin-top: 20px;
+}
+#feedbackForm input[type=text]{
+    border: 1px solid black;
+    width: 50%;
+    height: 30px;
+    margin: 20px;
+    font-size: 20px;
+}
+#feedbackForm input[type=submit]{
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: papayawhip;
+    
+}
+#feedbackForm textarea{
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+}
+
+/*for login and registration*/
+#loginForm{
+	border: 2px solid black;
+	width: 30%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 20px;
+	background-color: lightcyan;
+	font-size: 18px;
+}
+#loginForm input{
+	border: 2px solid purple;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 15px;
+	width: 50%;
+}
+#loginForm button{
+	text-transform: uppercase;
+	outline: 0;
+	background: #7aa0cb;
+	width: 50%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 15px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+#loginForm textarea{
+	padding: 10px;
+	font-size: 15px;
+	width: 50%;
+}
+
+#blogcomment{
+	border: 1px solid black;
+	width: 300px;
+}
+#commAside{
+	margin-top: 20px;
+}
+#commDiv{
+	border: 2px solid black;
+	background-color: azure;
+	margin: 10px;
+	padding: 5px;
+}
+#commentForm{
+	width: 40%;
+	padding: 30px;
+	margin: auto;
+}
