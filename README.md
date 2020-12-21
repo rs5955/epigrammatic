@@ -66,8 +66,6 @@ An Example Feedback:
 }
 ```
 
-## [Link to Commented First Draft Schema](db.js)
-
 ## Wireframes
 
 /home - homepage. recent blogs and comments are visible
@@ -117,8 +115,6 @@ An Example Feedback:
 * as a user, I can comment on my own post
 * as a user, I can comment on other people's posts
 * as a user, I can view all the pages that a non-registered user can view
-
-## [Link to Initial Main Project File](app.js)
 
 ## Annotations / References Used
 
