@@ -2,9 +2,9 @@
 
 ## Overview
 
-Starting a personal blog is an onerous endeavor. Whether it be a lack of a reliable platform or an understanding of how to begin one, an individual would normally have to spend copious number of hours learning how to simply post their ideas online. Then, sharing the posts becomes a burden, as not everyone will have an immediate audience. Sooo... that's where Epigrammatic comes in! 
+Starting a personal blog is an onerous endeavor. Whether it be a lack of a reliable platform or an understanding of how to begin one, an individual would normally have to spend copious number of hours learning how to simply post their ideas online. Then, sharing the posts becomes a burden, as not everyone will have an immediate audience. Sooo... that's where Epigrammatic comes in!
 
-Epigrammatic is a tool for novice and experienced writers to write and share their ideas with other users on the site. Any user can read publicly posted blogs on the site. However, a user would have to be logged in to write their own blogs and comment on others. The site is a versatile medium for anyone interested in posting. 
+Epigrammatic is a tool for novice and experienced writers to write and share their ideas with other users on the site. Any user can read publicly posted blogs on the site. However, a user would have to be logged in to write their own blogs and comment on others. The site is a versatile medium for anyone interested in posting.
 
 
 ## Data Model
@@ -33,7 +33,7 @@ An Example User:
 }
 ```
 
-An Example Post: 
+An Example Post:
 
 ```javascript
     user: "john",
@@ -66,7 +66,7 @@ An Example Feedback:
 }
 ```
 
-## [Link to Commented First Draft Schema](db.js) 
+## [Link to Commented First Draft Schema](db.js)
 
 ## Wireframes
 
@@ -115,21 +115,10 @@ An Example Feedback:
 * as a user, I can log in to the site
 * as a user, I can view the comments related to a post in a specific blog
 * as a user, I can comment on my own post
-* as a user, I can comment on other people's posts 
+* as a user, I can comment on other people's posts
 * as a user, I can view all the pages that a non-registered user can view
 
-## Research Topics
-
-* (6 points) Integrate user authentication
-    * I'm going to be using passport for user authentication
-    * passport is an authentication middleware for node js
-* (2 point) Use slug module
-	* To create browser friendly urls
-	
-8 points total out of 8 required points
-
-
-## [Link to Initial Main Project File](app.js) 
+## [Link to Initial Main Project File](app.js)
 
 ## Annotations / References Used
 
